@@ -1,6 +1,6 @@
 module go-micro.org/v5
 
-go 1.21
+go 1.19
 
 require (
 	github.com/bitly/go-simplejson v0.5.1
@@ -26,7 +26,7 @@ require (
 	golang.org/x/crypto v0.24.0
 	golang.org/x/net v0.26.0
 	golang.org/x/sync v0.7.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.34.1
 )
 
 require (
