@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-micro.dev/v4/logger"
+	"go-micro.org/v4/logger"
 )
 
 // Options represents the options for the cache.

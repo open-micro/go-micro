@@ -3,7 +3,7 @@ package pool
 import (
 	"time"
 
-	"go-micro.dev/v4/transport"
+	"go-micro.org/v4/transport"
 )
 
 type Options struct {

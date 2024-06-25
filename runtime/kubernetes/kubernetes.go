@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	log "go-micro.dev/v4/logger"
-	"go-micro.dev/v4/runtime"
-	"go-micro.dev/v4/util/kubernetes/client"
+	log "go-micro.org/v4/logger"
+	"go-micro.org/v4/runtime"
+	"go-micro.org/v4/util/kubernetes/client"
 )
 
 // action to take on runtime service.

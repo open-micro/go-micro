@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"go-micro.dev/v4/store"
+	"go-micro.org/v4/store"
 )
 
 type operation struct {

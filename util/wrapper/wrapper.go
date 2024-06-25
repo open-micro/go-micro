@@ -4,13 +4,13 @@ import (
 	"context"
 	"strings"
 
-	"go-micro.dev/v4/auth"
-	"go-micro.dev/v4/client"
-	"go-micro.dev/v4/debug/stats"
-	"go-micro.dev/v4/debug/trace"
-	"go-micro.dev/v4/metadata"
-	"go-micro.dev/v4/server"
-	"go-micro.dev/v4/transport/headers"
+	"go-micro.org/v4/auth"
+	"go-micro.org/v4/client"
+	"go-micro.org/v4/debug/stats"
+	"go-micro.org/v4/debug/trace"
+	"go-micro.org/v4/metadata"
+	"go-micro.org/v4/server"
+	"go-micro.org/v4/transport/headers"
 )
 
 type fromServiceWrapper struct {

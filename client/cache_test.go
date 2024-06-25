@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"go-micro.dev/v4/metadata"
-	"go-micro.dev/v4/transport/headers"
+	"go-micro.org/v4/metadata"
+	"go-micro.org/v4/transport/headers"
 )
 
 func TestCache(t *testing.T) {

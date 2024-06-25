@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"go-micro.dev/v4/codec"
-	"go-micro.dev/v4/transport"
+	"go-micro.org/v4/codec"
+	"go-micro.org/v4/transport"
 )
 
 // testCodec is a dummy codec that only knows how to encode nil bodies.

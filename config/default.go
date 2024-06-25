@@ -3,11 +3,11 @@ package config
 import (
 	"bytes"
 	"fmt"
-	"go-micro.dev/v4/config/loader"
-	"go-micro.dev/v4/config/loader/memory"
-	"go-micro.dev/v4/config/reader"
-	"go-micro.dev/v4/config/reader/json"
-	"go-micro.dev/v4/config/source"
+	"go-micro.org/v4/config/loader"
+	"go-micro.org/v4/config/loader/memory"
+	"go-micro.org/v4/config/reader"
+	"go-micro.org/v4/config/reader/json"
+	"go-micro.org/v4/config/source"
 	"sync"
 	"time"
 )

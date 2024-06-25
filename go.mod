@@ -1,4 +1,4 @@
-module go-micro.dev/v4
+module go-micro.org/v4
 
 go 1.18
 

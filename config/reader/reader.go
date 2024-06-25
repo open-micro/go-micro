@@ -4,7 +4,7 @@ package reader
 import (
 	"time"
 
-	"go-micro.dev/v4/config/source"
+	"go-micro.org/v4/config/source"
 )
 
 // Reader is an interface for merging changesets.

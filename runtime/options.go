@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"go-micro.dev/v4/client"
-	"go-micro.dev/v4/logger"
+	"go-micro.org/v4/client"
+	"go-micro.org/v4/logger"
 )
 
 type Option func(o *Options)

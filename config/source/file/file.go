@@ -6,7 +6,7 @@ import (
 	"io/fs"
 	"os"
 
-	"go-micro.dev/v4/config/source"
+	"go-micro.org/v4/config/source"
 )
 
 type file struct {

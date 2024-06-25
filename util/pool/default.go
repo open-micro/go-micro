@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"go-micro.dev/v4/transport"
+	"go-micro.org/v4/transport"
 )
 
 type pool struct {

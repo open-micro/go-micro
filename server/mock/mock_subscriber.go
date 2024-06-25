@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"go-micro.dev/v4/registry"
-	"go-micro.dev/v4/server"
+	"go-micro.org/v4/registry"
+	"go-micro.org/v4/server"
 )
 
 type MockSubscriber struct {
