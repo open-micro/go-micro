@@ -2,6 +2,9 @@
 
 Go Micro is a framework for distributed systems development.
 
+**Notice:** The Project forked from go-micro v4 and independent maintenance.
+Due to the original project [Go-Micro](https://github.com/go-micro/go-micro) is change license to BSL.
+
 ## Overview
 
 Go Micro provides the core requirements for distributed systems development including RPC and Event driven communication.
