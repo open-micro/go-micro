@@ -1,4 +1,4 @@
-# Go Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/go-micro.dev/v4?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/go-micro/go-micro)](https://goreportcard.com/report/github.com/go-micro/go-micro)
+# Go Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/go-micro.org/v4?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/open-micro/go-micro)](https://goreportcard.com/report/github.com/open-micro/go-micro)
 
 Go Micro is a framework for distributed systems development.
 
@@ -57,7 +57,7 @@ To make use of Go Micro import it
 import "go-micro.org/v4"
 ```
 
-Define a handler (protobuf is optionally supported - see [example](https://github.com/go-micro/examples/blob/main/helloworld/main.go)) 
+Define a handler (protobuf is optionally supported - see [example](https://github.com/open-micro/examples/blob/main/helloworld/main.go)) 
 
 ```golang
 type Request struct {
@@ -111,19 +111,19 @@ curl -XPOST \
       http://localhost:8080
 ```
 
-See the [examples](https://github.com/go-micro/examples) for detailed information on usage.
+See the [examples](https://github.com/open-micro/examples) for detailed information on usage.
 
 ## Toolkit
 
-See [github.com/go-micro](https://github.com/go-micro) for tooling.
+See [github.com/open-micro](https://github.com/open-micro) for tooling.
 
-- [API](https://github.com/go-micro/api)
-- [CLI](https://github.com/go-micro/cli)
-- [Demo](https://github.com/go-micro/demo)
-- [Plugins](https://github.com/go-micro/plugins)
-- [Examples](https://github.com/go-micro/examples)
-- [Dashboard](https://github.com/go-micro/dashboard)
-- [Generator](https://github.com/go-micro/generator)
+- [API](https://github.com/open-micro/api)
+- [CLI](https://github.com/open-micro/cli)
+- [Demo](https://github.com/open-micro/demo)
+- [Plugins](https://github.com/open-micro/plugins)
+- [Examples](https://github.com/open-micro/examples)
+- [Dashboard](https://github.com/open-micro/dashboard)
+- [Generator](https://github.com/open-micro/generator)
 
 ## License
 
