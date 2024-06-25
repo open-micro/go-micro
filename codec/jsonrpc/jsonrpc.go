@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"go-micro.org/v4/codec"
+	"go-micro.org/v5/codec"
 )
 
 type jsonCodec struct {

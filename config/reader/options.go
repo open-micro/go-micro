@@ -1,8 +1,8 @@
 package reader
 
 import (
-	"go-micro.org/v4/config/encoder"
-	"go-micro.org/v4/config/encoder/json"
+	"go-micro.org/v5/config/encoder"
+	"go-micro.org/v5/config/encoder/json"
 )
 
 type Options struct {

@@ -4,7 +4,7 @@ package socket
 import (
 	"io"
 
-	"go-micro.org/v4/transport"
+	"go-micro.org/v5/transport"
 )
 
 // Socket is our pseudo socket for transport.Socket.

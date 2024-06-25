@@ -7,10 +7,10 @@ import (
 	"regexp"
 	"strings"
 
-	"go-micro.org/v4/api/router"
-	"go-micro.org/v4/client"
-	"go-micro.org/v4/registry"
-	"go-micro.org/v4/server"
+	"go-micro.org/v5/api/router"
+	"go-micro.org/v5/client"
+	"go-micro.org/v5/registry"
+	"go-micro.org/v5/server"
 )
 
 // API interface provides a way to

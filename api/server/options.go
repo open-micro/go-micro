@@ -4,10 +4,10 @@ import (
 	"crypto/tls"
 	"net/http"
 
-	"go-micro.org/v4/api/resolver"
-	"go-micro.org/v4/api/server/acme"
-	"go-micro.org/v4/api/server/cors"
-	"go-micro.org/v4/logger"
+	"go-micro.org/v5/api/resolver"
+	"go-micro.org/v5/api/server/acme"
+	"go-micro.org/v5/api/server/cors"
+	"go-micro.org/v5/logger"
 )
 
 type Option func(o *Options)

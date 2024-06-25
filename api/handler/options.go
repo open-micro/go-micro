@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"go-micro.org/v4/api/router"
-	"go-micro.org/v4/client"
-	"go-micro.org/v4/logger"
+	"go-micro.org/v5/api/router"
+	"go-micro.org/v5/client"
+	"go-micro.org/v5/logger"
 )
 
 var (

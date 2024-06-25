@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"go-micro.org/v4/config/reader"
-	"go-micro.org/v4/config/source"
+	"go-micro.org/v5/config/reader"
+	"go-micro.org/v5/config/source"
 )
 
 // Loader manages loading sources.

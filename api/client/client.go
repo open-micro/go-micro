@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"go-micro.org/v4/logger"
+	"go-micro.org/v5/logger"
 )
 
 const (

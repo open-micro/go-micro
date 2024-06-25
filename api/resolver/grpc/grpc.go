@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"go-micro.org/v4/api/resolver"
+	"go-micro.org/v5/api/resolver"
 )
 
 // Resolver is the gRPC Resolver.

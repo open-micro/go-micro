@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"go-micro.org/v4/broker"
-	"go-micro.org/v4/registry"
+	"go-micro.org/v5/broker"
+	"go-micro.org/v5/registry"
 )
 
 var (

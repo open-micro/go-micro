@@ -6,12 +6,12 @@ import (
 	rtime "runtime"
 	"sync"
 
-	"go-micro.org/v4/client"
-	log "go-micro.org/v4/logger"
-	"go-micro.org/v4/server"
-	"go-micro.org/v4/store"
-	"go-micro.org/v4/util/cmd"
-	signalutil "go-micro.org/v4/util/signal"
+	"go-micro.org/v5/client"
+	log "go-micro.org/v5/logger"
+	"go-micro.org/v5/server"
+	"go-micro.org/v5/store"
+	"go-micro.org/v5/util/cmd"
+	signalutil "go-micro.org/v5/util/signal"
 )
 
 type service struct {

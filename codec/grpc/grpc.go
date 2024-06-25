@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"go-micro.org/v4/codec"
-	"go-micro.org/v4/transport/headers"
+	"go-micro.org/v5/codec"
+	"go-micro.org/v5/transport/headers"
 )
 
 type Codec struct {

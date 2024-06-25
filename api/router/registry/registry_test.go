@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"go-micro.org/v4/registry"
+	"go-micro.org/v5/registry"
 )
 
 func TestStoreRegex(t *testing.T) {

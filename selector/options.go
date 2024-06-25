@@ -3,8 +3,8 @@ package selector
 import (
 	"context"
 
-	"go-micro.org/v4/logger"
-	"go-micro.org/v4/registry"
+	"go-micro.org/v5/logger"
+	"go-micro.org/v5/registry"
 )
 
 type Options struct {

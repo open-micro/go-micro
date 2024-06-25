@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	"go-micro.org/v4/api/server"
-	"go-micro.org/v4/api/server/cors"
+	"go-micro.org/v5/api/server"
+	"go-micro.org/v5/api/server/cors"
 )
 
 func TestHTTPServer(t *testing.T) {

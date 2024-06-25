@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-micro.org/v4/registry"
-	"go-micro.org/v4/registry/cache"
+	"go-micro.org/v5/registry"
+	"go-micro.org/v5/registry/cache"
 )
 
 type registrySelector struct {

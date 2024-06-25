@@ -1,10 +1,10 @@
 package router
 
 import (
-	"go-micro.org/v4/api/resolver"
-	"go-micro.org/v4/api/resolver/vpath"
-	"go-micro.org/v4/logger"
-	"go-micro.org/v4/registry"
+	"go-micro.org/v5/api/resolver"
+	"go-micro.org/v5/api/resolver/vpath"
+	"go-micro.org/v5/logger"
+	"go-micro.org/v5/registry"
 )
 
 // Options is a struct of options available.

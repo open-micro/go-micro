@@ -8,9 +8,9 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"go-micro.org/v4/api/handler"
-	"go-micro.org/v4/api/router"
-	"go-micro.org/v4/selector"
+	"go-micro.org/v5/api/handler"
+	"go-micro.org/v5/api/router"
+	"go-micro.org/v5/selector"
 )
 
 const (

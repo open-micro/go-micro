@@ -12,11 +12,11 @@ import (
 
 	proto "github.com/go-micro/plugins/v4/server/grpc/proto"
 
-	"go-micro.org/v4"
-	"go-micro.org/v4/client"
-	"go-micro.org/v4/debug/handler"
+	"go-micro.org/v5"
+	"go-micro.org/v5/client"
+	"go-micro.org/v5/debug/handler"
 
-	pb "go-micro.org/v4/debug/proto"
+	pb "go-micro.org/v5/debug/proto"
 )
 
 var (

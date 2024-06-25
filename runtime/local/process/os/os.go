@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"go-micro.org/v4/runtime/local/process"
+	"go-micro.org/v5/runtime/local/process"
 )
 
 func (p *Process) Exec(exe *process.Executable) error {

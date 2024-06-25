@@ -3,9 +3,9 @@ package server
 import (
 	"bytes"
 
-	"go-micro.org/v4/codec"
-	"go-micro.org/v4/transport"
-	"go-micro.org/v4/util/buf"
+	"go-micro.org/v5/codec"
+	"go-micro.org/v5/transport"
+	"go-micro.org/v5/util/buf"
 )
 
 type rpcRequest struct {

@@ -2,7 +2,7 @@
 package build
 
 import (
-	"go-micro.org/v4/runtime/local/source"
+	"go-micro.org/v5/runtime/local/source"
 )
 
 // Builder builds binaries.

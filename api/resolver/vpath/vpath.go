@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"go-micro.org/v4/api/resolver"
+	"go-micro.org/v5/api/resolver"
 )
 
 // NewResolver returns a new vpath resolver.

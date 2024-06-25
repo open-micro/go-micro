@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"go-micro.org/v4/broker"
-	raw "go-micro.org/v4/codec/bytes"
-	log "go-micro.org/v4/logger"
-	"go-micro.org/v4/metadata"
-	"go-micro.org/v4/transport/headers"
+	"go-micro.org/v5/broker"
+	raw "go-micro.org/v5/codec/bytes"
+	log "go-micro.org/v5/logger"
+	"go-micro.org/v5/metadata"
+	"go-micro.org/v5/transport/headers"
 )
 
 // HandleEvent handles inbound messages to the service directly.

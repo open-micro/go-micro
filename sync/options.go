@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"time"
 
-	"go-micro.org/v4/logger"
+	"go-micro.org/v5/logger"
 )
 
 // Nodes sets the addresses to use.

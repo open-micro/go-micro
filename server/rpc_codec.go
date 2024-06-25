@@ -7,15 +7,15 @@ import (
 	"github.com/oxtoacart/bpool"
 	"github.com/pkg/errors"
 
-	"go-micro.org/v4/codec"
-	raw "go-micro.org/v4/codec/bytes"
-	"go-micro.org/v4/codec/grpc"
-	"go-micro.org/v4/codec/json"
-	"go-micro.org/v4/codec/jsonrpc"
-	"go-micro.org/v4/codec/proto"
-	"go-micro.org/v4/codec/protorpc"
-	"go-micro.org/v4/transport"
-	"go-micro.org/v4/transport/headers"
+	"go-micro.org/v5/codec"
+	raw "go-micro.org/v5/codec/bytes"
+	"go-micro.org/v5/codec/grpc"
+	"go-micro.org/v5/codec/json"
+	"go-micro.org/v5/codec/jsonrpc"
+	"go-micro.org/v5/codec/proto"
+	"go-micro.org/v5/codec/protorpc"
+	"go-micro.org/v5/transport"
+	"go-micro.org/v5/transport/headers"
 )
 
 type rpcCodec struct {

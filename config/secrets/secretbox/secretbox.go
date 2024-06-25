@@ -6,7 +6,7 @@ import (
 	"crypto/rand"
 
 	"github.com/pkg/errors"
-	"go-micro.org/v4/config/secrets"
+	"go-micro.org/v5/config/secrets"
 	"golang.org/x/crypto/nacl/secretbox"
 )
 

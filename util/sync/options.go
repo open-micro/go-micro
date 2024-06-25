@@ -3,7 +3,7 @@ package sync
 import (
 	"time"
 
-	"go-micro.org/v4/store"
+	"go-micro.org/v5/store"
 )
 
 // Options represents Sync options.

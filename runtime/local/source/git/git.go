@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/go-git/go-git/v5"
-	"go-micro.org/v4/runtime/local/source"
+	"go-micro.org/v5/runtime/local/source"
 )
 
 // Source retrieves source code

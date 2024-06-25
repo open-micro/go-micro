@@ -2,7 +2,7 @@ package acme
 
 import (
 	"github.com/go-acme/lego/v4/challenge"
-	"go-micro.org/v4/logger"
+	"go-micro.org/v5/logger"
 )
 
 // Option (or Options) are passed to New() to configure providers.

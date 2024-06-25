@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-micro.org/v4/util/backoff"
+	"go-micro.org/v5/util/backoff"
 )
 
 type BackoffFunc func(ctx context.Context, req Request, attempts int) (time.Duration, error)
