@@ -1,9 +1,18 @@
-# Go Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/go-micro.org/v4?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/open-micro/go-micro)](https://goreportcard.com/report/github.com/open-micro/go-micro)
+# Go Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/go-micro.org/v5?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/open-micro/go-micro)](https://goreportcard.com/report/github.com/open-micro/go-micro)
 
 Go Micro is a framework for distributed systems development.
 
-**Notice:** The Project forked from go-micro v4 and independent maintenance.
-Due to the original project [Go-Micro](https://github.com/go-micro/go-micro) is change license to BSL.
+**NOTICE:** The project forked from [go-micro](https://github.com/go-micro/go-micro) v4 and independent maintenance for the following reasons:
+ - Go-micro v5 is change license to BSL.
+ - Frequent changes of own group. micro(v2) -> asim(v3) -> go-micro(v4)
+ - Many issues unresolved and no any response.
+ - No clear roadmap.
+
+## Package name
+
+Version >= 5  `go-micro.org` (Current)
+
+Version <= 4  `go-micro.dev`
 
 ## Overview
 
@@ -127,6 +136,17 @@ See [github.com/open-micro](https://github.com/open-micro) for tooling.
 - [Examples](https://github.com/open-micro/examples)
 - [Dashboard](https://github.com/open-micro/dashboard)
 - [Generator](https://github.com/open-micro/generator)
+
+
+## Authors
+
+### go-micro
+
+- [Asim Aslam](https://github.com/asim) the founder/creator of go-micro.
+- [Milos Gajdos](https://github.com/milosgajdos)
+- [ben-toogood](https://github.com/ben-toogood)
+- [Vasiliy Tolstov](https://github.com/vtolstov)
+- [Johnson C](https://github.com/xpunch)
 
 ## License
 
