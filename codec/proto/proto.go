@@ -4,8 +4,8 @@ package proto
 import (
 	"io"
 
-	"github.com/golang/protobuf/proto"
 	"go-micro.org/v5/codec"
+	"google.golang.org/protobuf/proto"
 )
 
 type Codec struct {

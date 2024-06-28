@@ -9,9 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/protobuf/proto"
 	"go-micro.org/v5/codec/json"
 	protoCodec "go-micro.org/v5/codec/proto"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/runtime/protoimpl"
 )
 
 // protoStruct implements proto.Message.
@@ -20,8 +22,11 @@ type protoStruct struct {
 }
 
 func (m *protoStruct) Reset()         { *m = protoStruct{} }
-func (m *protoStruct) String() string { return proto.CompactTextString(m) }
+func (m *protoStruct) String() string { b, _ := proto.Marshal(m); return string(b) }
 func (*protoStruct) ProtoMessage()    {}
+func (m *protoStruct) ProtoReflect() protoreflect.Message {
+	return protoimpl.X.MessageOf(m)
+}
 
 // safeBuffer throws away everything and wont Read data back.
 type safeBuffer struct {

@@ -114,7 +114,7 @@ linters-settings:
     list-type: blacklist
     # Packages listed here will reported as error if imported
     packages:
-      - github.com/golang/protobuf/proto
+      - google.golang.org/protobuf/proto
   misspell:
     # Correct spellings using locale preferences for US or UK.
     # Default is to use a neutral variety of English.
